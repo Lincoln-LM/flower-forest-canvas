@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Forest Canvas</title>
+</head>
+<body style="background-color: #322e40; color: #a19ead;">
+    <div style="display: none;">
+        <img id="dandelion" src="flowers/flower_dandelion.png" />
+        <img id="poppy" src="flowers/flower_poppy.png" />
+        <img id="allium" src="flowers/flower_allium.png" />
+        <img id="azure_bluet" src="flowers/flower_azure_bluet.png" />
+        <img id="red_tulip" src="flowers/flower_red_tulip.png" />
+        <img id="orange_tulip" src="flowers/flower_orange_tulip.png" />
+        <img id="white_tulip" src="flowers/flower_white_tulip.png" />
+        <img id="pink_tulip" src="flowers/flower_pink_tulip.png" />
+        <img id="oxeye_daisy" src="flowers/flower_oxeye_daisy.png" />
+        <img id="cornflower" src="flowers/flower_cornflower.png" />
+        <img id="lily_of_the_valley" src="flowers/flower_lily_of_the_valley.png" />
+    </div>
+    <label for="x_offset">X Offset</label>
+    <input id="x_offset" type="number" value="0" onchange="update()"/>
+    <label for="z_offset">Z Offset</label>
+    <input id="z_offset" type="number" value="0" onchange="update()"/>
+    <canvas id="canvas" style="background-color: #322e40;"></canvas>
+    <script src="index.js"></script>
+</body>
+</html>
